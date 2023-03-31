@@ -45,29 +45,34 @@
     cursor: pointer;
 }
 
+.menu__icon:hover {
+    transform: scale(1.1);
+    transition: transform 500ms;
+}
+
 .menu__text {
-    font-family: "Roboto", sans-serif;
+    font-family: "Geometria", sans-serif;
     font-size: 16px;
     line-height: 120%;
     margin-left: 30px;
 }
 
 .logo__text {
-    font-family: "Roboto", sans-serif;
+    font-family: "Geometria", sans-serif;
     font-size: 0.9rem;
     line-height: 130%;
     margin-left: 30px;
 }
 
 .contacts__text {
-    font-family: "Roboto", sans-serif;
+    font-family: "Geometria", sans-serif;
     font-size: 1.5em;
     line-height: 130%;
 }
 
 .contacts__button {
     margin-top: 17px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Geometria", sans-serif;
     width: 100%;
     height: 55px;
     box-sizing: border-box;
@@ -77,6 +82,12 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.contacts__button:hover {
+    transform: scale(1.1);
+    transition: transform 500ms;
+}
+
 .test-area{
     display: flex;
     width: 100%;
@@ -94,7 +105,7 @@
 }
 
 .text-xlarge{
-    font-family: "Geometria";
+    font-family: "Geometria", sans-serif;
     font-size: 35px;
     margin-top: 0;
 }
@@ -102,7 +113,7 @@
 .text-xmedium{
     text-decoration: none;
     font-weight: 400;
-    font-family: "Geometria";
+    font-family: "Geometria", sans-serif;
     font-size: 22px;
     margin: 0;
 }
@@ -110,7 +121,7 @@
 .text-medium{
     text-decoration: none;
     font-weight: 400;
-    font-family: "Geometria";
+    font-family: "Geometria", sans-serif;
     font-size: 22px;
     margin: 0;
 }
@@ -118,7 +129,7 @@
 .text-xsmall{
     text-decoration: none;
     font-weight: 400;
-    font-family: "Geometria";
+    font-family: "Geometria", sans-serif;
     font-size: 16px;
     margin: 0;
 }
@@ -191,6 +202,12 @@
     padding: 0;
 }
 
+.next-question-button:hover {
+    transform: scale(1.03);
+    transition: transform 500ms;
+    cursor: pointer;
+}
+
 .next-question-button_img{
     margin-left: 15px;
 }
@@ -260,7 +277,6 @@
 
 .advantages__cards {
     display: flex;
-    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -316,6 +332,11 @@
     cursor: pointer;
 }
 
+.advantages__button:hover {
+    transform: scale(1.1);
+    transition: transform 500ms;
+}
+
 @media screen and (max-width: 1480px) {
     .contacts__text {
         font-size: 1em;
@@ -333,6 +354,8 @@
         margin-top: 20px;
     }
 }
+
+
 .service-content-block{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

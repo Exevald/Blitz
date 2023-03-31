@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "geometria_bold";
+    src: url("../fonts/geometria_bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_bolditalic";
+    src: url("../fonts/geometria_bolditalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_extrabold";
+    src: url("../fonts/geometria_extrabold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_light";
+    src: url("../fonts/geometria_light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_lightitalic";
+    src: url("../fonts/geometria_lightitalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_medium";
+    src: url("../fonts/geometria_medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_mediumitalic";
+    src: url("../fonts/geometria_mediumitalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main-choose-apartment{
+    width: 1147px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px;
+    border: 2px dotted;
+    border: medium dashed green;
+}
+
+.main-choose-apartment__headers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1147px;
+    /*border: 1px;*/
+    /*border: 2px dotted;*/
+    /*border: medium ridge red;*/
+}
+
+.headers__h2{
+    font-family: 'geometria_bold';
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.headers__h4{
+    font-family: 'geometria_light';
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 0;
+}
+
+.main-choose-apartment__components{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.component{
+    width: 555px;
+    height: 571px;
+    border: 0.05px solid #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 10px;*/
+    margin: 0px 8px 0px;
+}
+
+.component__img{
+    width: 100%;
+    height: 53%;
+}
+
+.component__info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px 15px 0px;
+}
+
+.component__headers{
+    width: 89%;
+    padding: 0;
+    /*border: 2px dotted;*/
+    /*border: medium ridge darkblue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.headers__h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'geometria_bold';
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.headers__h6{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'geometria_light';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.component__text{
+    width: 89%;
+    display: flex;
+    /*border: 2px dotted;*/
+    /*border: medium ridge deepskyblue;*/
+}
+
+.text__right{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /*border: 2px dotted;*/
+    /*border: medium ridge dodgerblue;*/
+}
+
+.text__right__square{
+    font-family: 'geometria_medium';
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.text__right__floor{
+    font-family: 'geometria_medium';
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+}
+
+.text__left{
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    /*border: 2px dotted;*/
+    /*border: medium ridge dodgerblue;*/
+}
+
+.text__left__price{
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-family: 'geometria_medium';
+    font-size: 33px;
+    line-height: 54px;
+}
+
+.text__left__price-per-square-meter{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'geometria_medium';
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.component__button{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-grow: 3;
+}
+
+.button__form{
+    width: 100%;
+    height: 100%;
+}
+
+.button__viewing{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'geometria_medium';
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    background-color: #F6F6F6;
+    border: 0;
+}
+
+.button__viewing:hover{
+    color: #FFFFFF;
+    background-color: #2A94E2;
+    cursor: pointer;
+}

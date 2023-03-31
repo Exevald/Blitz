@@ -1,0 +1,170 @@
+.test-area{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.test-heading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-xlarge{
+    font-family: "Geometria";
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.text-xmedium{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Geometria";
+    font-size: 22px;
+    margin: 0;
+}
+
+.text-medium{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Geometria";
+    font-size: 22px;
+    margin: 0;
+}
+
+.text-xsmall{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Geometria";
+    font-size: 16px;
+    margin: 0;
+}
+
+.text-xsmall_opacity_low{
+    opacity: 0.5;
+}
+
+.text-xsmall_blue{
+    color: #2A94E2;
+}
+
+.heading{
+    text-align: center;
+}
+
+.test-area__test-content{
+    margin-top: 42px;
+}
+
+.test-content{
+    border: 3px solid #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    width: 59%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.test-block{
+    padding: 43px 40px 18px 36px;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid #F6F6F6;
+}
+
+.test-block__questions-option-block{
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.questions-option-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option-block__text-xsmall{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.test-block__test-footer{
+    margin-top: 26px;
+    padding: 30px 0 18px 0;
+}
+
+.test-footer{
+    border-top: 2px solid #F1F1F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.next-question-button{
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.next-question-button_img{
+    margin-left: 15px;
+}
+
+.test-block__check-marks-block{
+   padding:40px 44px 31px 40px;
+}
+
+.check-marks-block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 23.3%;
+}
+
+.text-xsmall_line-heigth_large{
+    line-height: 26px;
+}
+
+.check-mark__text{
+    margin-left: 25px;
+}
+
+.check-mark{
+    display: flex;
+    flex-direction: row;
+}
+
+.service-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.service-content-block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 59%;
+
+}
+
+.service-content-block__img{
+    width: 100%
+}
+
+.content-block_number_1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.content-block_number_4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}

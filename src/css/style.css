@@ -1,3 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-banner {
+    width: 100%;
+    height: 877px;
+    background-image: url("../images/banner_background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-banner__header {
+    max-width: 100%;
+    height: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__menu {
+    width: 6vw;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 25vw;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.header__contacts {
+    width: 14vw;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__icon {
+    cursor: pointer;
+}
+
+.menu__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    margin-left: 30px;
+}
+
+.logo__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    line-height: 130%;
+    margin-left: 30px;
+}
+
+.contacts__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    line-height: 130%;
+}
+
+.contacts__button {
+    margin-top: 17px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #2A94E2;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
 .test-area{
     display: flex;
     width: 100%;
@@ -147,6 +226,113 @@
     align-items: center;
 }
 
+.main-banner__text-section {
+    width: 31vw;
+    height: 20%;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-section__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.08em;
+    line-height: 125%;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.text-section__subtitle {
+    margin-top: 5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 130%;
+}
+
+.main-banner__advantages {
+    margin-top: 49px;
+    margin-left: 20vw;
+    width: 44vw;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cards__item {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.item__number {
+    font-size: 4em;
+    margin-left: 50px;
+}
+
+.item__number_first {
+    font-size: 4em;
+}
+
+.item__text {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.advantages__present {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+}
+
+.present__text {
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+}
+
+.present__text_bold {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.advantages__button {
+    margin-top: 30px;
+    width: 42%;
+    height: 70px;
+    background: #2A94E2;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1480px) {
+    .contacts__text {
+        font-size: 1em;
+    }
+    .text-section__title {
+        font-size: 1.6em;
+    }
+    .item__number_first {
+        font-size: 3em;
+    }
+    .item__number {
+        font-size: 3em;
+    }
+    .main-banner__advantages {
+        margin-top: 20px;
+    }
+}
 .service-content-block{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

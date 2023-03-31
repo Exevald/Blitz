@@ -1,3 +1,52 @@
+@font-face {
+    font-family: "geometria_bold";
+    src: url("../fonts/geometria_bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_bolditalic";
+    src: url("../fonts/geometria_bolditalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_extrabold";
+    src: url("../fonts/geometria_extrabold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_light";
+    src: url("../fonts/geometria_light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_lightitalic";
+    src: url("../fonts/geometria_lightitalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_medium";
+    src: url("../fonts/geometria_medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "geometria_mediumitalic";
+    src: url("../fonts/geometria_mediumitalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -231,53 +280,12 @@
 .check-mark__text{
     margin-left: 25px;
 }
-@font-face {
-    font-family: "geometria_bold";
-    src: url("../fonts/geometria_bold.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: "geometria_bolditalic";
-    src: url("../fonts/geometria_bolditalic.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "geometria_extrabold";
-    src: url("../fonts/geometria_extrabold.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "geometria_light";
-    src: url("../fonts/geometria_light.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "geometria_lightitalic";
-    src: url("../fonts/geometria_lightitalic.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "geometria_medium";
-    src: url("../fonts/geometria_medium.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "geometria_mediumitalic";
-    src: url("../fonts/geometria_mediumitalic.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .main-choose-apartment{
@@ -287,9 +295,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px;
-    border: 2px dotted;
-    border: medium dashed green;
+    /*border: 1px;*/
+    /*border: 2px dotted;*/
+    /*border: medium dashed green;*/
 }
 
 .main-choose-apartment__headers{
